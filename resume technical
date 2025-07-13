@@ -1,0 +1,149 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=1cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[default]{sourcesanspro} % Calibri-like font
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{multicol}
+
+% Custom Colors and Styling
+\definecolor{myblue}{HTML}{2E74B5}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=myblue,
+  urlcolor=myblue
+}
+\titleformat{\section}{\color{myblue}\scshape\large}{}{0em}{}[\titlerule]
+\pagestyle{empty}
+\setlength{\columnsep}{1.2cm}
+\setlist[itemize]{left=1em,label=\textbullet,noitemsep,topsep=2pt}
+
+\begin{document}
+\null
+\vspace*{10mm}  % top gap added
+
+% ===== Header =====
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  {\Huge \textbf{Sachin Thakur}} & \\
+  \textbf{Python Django Developer} & 
+  \begin{tabular}{r}
+    \faPhone\ +91 7771069046 \\
+    \faMapMarker\ Bangalore, Karnataka \\
+    \faEnvelope\ \href{mailto:sachinthakurr8871@gmail.com}{sachinthakurr8871@gmail.com}
+  \end{tabular}
+\end{tabular*}
+
+\vspace{2mm}
+
+% ===== Main Two-Column Layout =====
+\begin{minipage}[t]{0.33\textwidth}
+\raggedright
+
+\section*{Links}
+\faLinkedin\ \href{https://www.linkedin.com/in/sachin-thakur-9107bb27b/}{LinkedIn} \\
+\faGithub\ \href{https://github.com/sachin07thakur}{GitHub} \\
+\faGlobe\ \href{https://abhishekthakurrr.netlify.app/}{Portfolio}
+
+\section*{Skills}
+\textbf{Programming Languages}\\
+Python, Django, HTML, CSS, JavaScript
+
+\vspace{1mm}
+\textbf{Frameworks}\\
+Django, Flask, FastAPI
+
+\vspace{1mm}
+\textbf{Databases}\\
+MySQL, SQL, MongoDB
+
+\vspace{1mm}
+\textbf{Tools}\\
+Eclipse, IntelliJ, NetBeans, VS Code
+
+\vspace{1mm}
+\textbf{Others}\\
+Git, Postman, REST APIs
+
+\section*{Education}
+\textbf{2021 -- 2025} \\
+B.Tech, NRI Group of Institute of Research and Technology, Bhopal \\
+CGPA: 6.46/10
+
+\vspace{1mm}
+\textbf{2018 -- 2019} \\
+State Board, Saraswati School, Ichhawar
+
+\vspace{1mm}
+\textbf{2020 -- 2021} \\
+MP Board, Navodit School, Ichhawar
+
+\section*{Soft Skills}
+Communication, Empathy, Open-Mindedness, Problem-Solving,\\
+Critical Thinking, Collaboration/Teamwork
+
+\section*{Certifications}
+\textbf{Nov 2023 -- Jun 2024} \\
+Python & Django — SCALive, Bhopal
+
+\vspace{1mm}
+\textbf{Aug 2024 -- Jan 2025} \\
+Python Developer Internship — Hybrid
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.63\textwidth}
+\raggedright
+
+\section*{Professional Summary}
+Motivated and detail-oriented software developer fresher with a strong foundation in HTML, JavaScript, Python, Git, and GitHub. Passionate about developing scalable, efficient, and user-friendly software solutions. Aiming to contribute effectively to a dynamic, collaborative team. Committed to continuous learning and staying up-to-date with emerging technologies to drive innovation and deliver high-quality solutions.
+
+\section*{Experience}
+\textbf{CODE TECH IT SOLUTION} \hfill \textbf{Aug 2024} \\
+Python Programming Intern
+\begin{itemize}
+  \item Developed full-stack web applications using \textbf{Python} and \textbf{Django}, contributing to 15 percent of overall codebase functionality.
+  \item Implemented CRUD operations, user authentication, and form validations using Django’s built-in features, reducing development time by 20 percent.
+  \item Designed and integrated RESTful APIs using Django REST Framework (DRF), enabling seamless data exchange between frontend and backend.
+  \item Managed and optimized backend databases (SQLite/MySQL/PostgreSQL), reducing query response time by 25 percent through efficient indexing and query rewriting.
+  \item Built responsive HTML templates using the Django templating engine, Bootstrap, and JavaScript, enhancing UI/UX and reducing bounce rate by 10 percent.
+  \item Resolved over 30 plus bugs during development and QA phases, contributing to an overall defect reduction of 35 percent.
+  \item Followed MVC architecture and clean-code practices, improving maintainability and readability of the codebase for future developers.
+\end{itemize}
+
+
+\section*{Projects}
+
+\textbf{Portfolio Page} \\
+\textit{HTML, CSS, JavaScript}
+\begin{itemize}
+  \item Constructed a personal portfolio webpage to showcase skills, academic background, and professional details.
+  \item Incorporated header, footer, and navigation elements for improved user experience.
+\end{itemize}
+\vspace{2mm}
+
+\textbf{Voice Recognition Search System} \\
+\textit{Python, Wikipedia API, Voice Recognition library, External Microphone}
+\begin{itemize}
+  \item Developed a voice-activated web application for Wikipedia searches using real-time microphone input.
+  \item Created an AI-powered chatbot that increased user engagement by 50 percent, offering seamless QA support.
+\end{itemize}
+\vspace{2mm}
+
+\textbf{Face Recognition Attendance System} \\
+\textit{Python, OpenCV, HTML, CSS, JavaScript, Matplotlib, Seaborn, SQLite, MySQL}
+\begin{itemize}
+  \item Built an automated attendance system using OpenCV for face detection and recognition.
+  \item Matched detected faces against a pre-existing database and logged timestamps for accurate records.
+  \item \textbf{Technologies Used:} OpenCV, Python, SQLite/MySQL, Matplotlib, Seaborn.
+\end{itemize}
+\vspace{1mm}
+\noindent\color{myblue}\rule{\linewidth}{1pt}
+\vspace{2mm}
+
+\end{minipage}
+
+\end{document}
