@@ -1,5 +1,5 @@
 \documentclass[a4paper,10pt]{article}
-\usepackage[margin=1cm]{geometry}
+\usepackage[margin=1 cm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[default]{sourcesanspro} % Calibri-like font
 \usepackage{fontawesome5}
@@ -24,7 +24,7 @@
 
 \begin{document}
 \null
-\vspace*{10mm}  % top gap added
+\vspace*{0.4mm}  % top gap added
 
 % ===== Header =====
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
@@ -46,7 +46,7 @@
 \section*{Links}
 \faLinkedin\ \href{https://www.linkedin.com/in/sachin-thakur-9107bb27b/}{LinkedIn} \\
 \faGithub\ \href{https://github.com/sachin07thakur}{GitHub} \\
-\faGlobe\ \href{https://abhishekthakurrr.netlify.app/}{Portfolio}
+\faGlobe\ \href{https://sachiinportfolio.netlify.app/}{Portfolio}
 
 \section*{Skills}
 \textbf{Programming Languages}\\
@@ -87,7 +87,7 @@ Critical Thinking, Collaboration/Teamwork
 
 \section*{Certifications}
 \textbf{Nov 2023 -- Jun 2024} \\
-Python & Django — SCALive, Bhopal
+Python Django — SCALive, Bhopal
 
 \vspace{1mm}
 \textbf{Aug 2024 -- Jan 2025} \\
